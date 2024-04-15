@@ -72,7 +72,6 @@
         android:textSize="35sp" />
 
     <Button
-        android:onClick="ButaoCalcular"
         android:id="@+id/button_calculate"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -81,5 +80,11 @@
         android:backgroundTint="#3AC1AC"
         android:text="@string/calculate"
         android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonBruno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar" />
 
 </LinearLayout>
