@@ -15,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/distance"
-        android:inputType="numberSigned" />
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,7 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:hint="@string/price"
-        android:inputType="numberSigned" />
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,7 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:hint="@string/autonomy"
-        android:inputType="numberSigned" />
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,12 +82,7 @@
         android:layout_marginTop="30dp"
         android:backgroundTint="#3AC1AC"
         android:text="@string/calculate"
+        android:textColor="#424242"
         android:textSize="18sp" />
-
-    <Button
-        android:id="@+id/buttonBruno"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cadastrar" />
 
 </LinearLayout>
