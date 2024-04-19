@@ -3,7 +3,6 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -41,6 +40,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 && binding.editDistance.text.toString().toFloat() != 0f
                 && binding.editPrice.text.toString().toFloat() != 0f)
     }
+    @SuppressLint("SetTextI18n")
     private fun calculate(){
         if (isValid()) {
             val distance = binding.editDistance.text.toString().toFloat()
